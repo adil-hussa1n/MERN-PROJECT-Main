@@ -3,6 +3,7 @@ import Username from '../components/Username.jsx'
 import Register from "../components/Register.jsx"
 import Main from '../Shared/Main.jsx'
 import Profile from "../components/Profile.jsx"
+import Gallery from "../components/Gallery.jsx"
 import SignIn from "../components/SignIn.jsx"
 import About from "../components/About.jsx"
 import Home from "../components/Home.jsx"
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>
+      },
+      {
+        path:'/gallery',
+        element:<Gallery></Gallery>
       },
       {
         path:'/register',

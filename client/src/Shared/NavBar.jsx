@@ -40,7 +40,7 @@ const NavBar = () => {
         
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About US</Link></li>
-        <li><a>Gallery</a></li>
+        <li><Link to="/gallery">Gallery</Link></li>
       </ul>
     </div>
   </div>
@@ -56,14 +56,14 @@ const NavBar = () => {
     </Link>
   ) : (
     <Link to="/signIn" className="inline-block">
-      <button className="px-4 py-2 bg-green-500 text-white rounded-lg">SignIn or SignUp</button>
+      <button className="px-4 py-2 bg-green-500 text-white rounded-lg">Sign In/Up</button>
     </Link>
   )}
 </Link>
 
 
 <div className="dropdown dropdown-end">
-      
+
       <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
         <li>
           <a className="justify-between">
